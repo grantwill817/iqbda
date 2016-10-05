@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IQBDA</title>
+    <link rel="stylesheet" type="text/css" href="base.css" media="screen" />
+  </head>
+  <body>
+    <div id="page-wrapper"></div><!-- I do not completely understand what this does or how to close it -->
+    <header id="masthead">
+
+      <div id="header">
+        <img src="Skittles.gif" alt="Skittles">
+
+          <h1>IQBDA</h1>
+          <h2>The International QBASIC Developers Association</h2>
+      </div>
+    </header>
+
+      <div id="navbar">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="iqbdc.html">IQBDC</a>
+          </li>
+          <li>
+            <a href="member.html">Become a Member</a>
+          </li>
+
+        </ul>
+      </div>
+      <hr>
+      <div id="content">
+          <header id="page-header">
+            <h1>Join IQBDC Today!</h1>
+          </header>
+      <form action="mailto:grant.williams@student.fairfield.edu" method="post">
+        <label for="name-fld">Name:</label>
+          <input type="text" name="name" id="name-fld"><br>
+
+        <label for="pass-fld">Password:</label>
+          <input type="password" name="pass" id="pass-fld"><br>
+
+        <label for="pass2-fld">Password (again)</label>
+          <input type="password" name="pass" id="pass2-fld"><br>
+
+        <label for="email-fld">Email:</label>
+          <input type="email" name="email" id="email-fld"><br>
+
+        <label for="photo-fld">Photo:</label>
+          <input type="file" name="photo" id="photo-fld"><br>
+
+        <label for="address-fld">Mailing Address:</label>
+          <textarea name="address" id="address-fld"></textarea><br>
+
+        <label>Do you plan to attend IQBDC '98?</label>
+          <input type="radio" name="iqbdc98" value="Y" id="iqdbc98-Y"><label for="iqdbc98-Y">Yes</label>
+          <input type="radio" name="iqbdc98" value="N" id="iqdbc98-N"><label for="iqdbc98-N">No</label><br>
+
+        <label>How did you hear about us?</label>
+            <select name="channel">
+              <option>Superbowl Ad</option>
+              <option>News Article</option>
+              <option>Email</option>
+              <option>Flyover at the beach</option>
+            </select><br>
+
+        <input type="submit">
+        </form>
+      </div>
+    </body>
+</html>
